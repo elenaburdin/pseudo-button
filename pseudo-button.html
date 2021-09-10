@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Pseudo Selectors</title>
+    <style>
+        body {
+            background-color: #222;
+        }
+
+        .call-for-action {
+            color: #BBB;
+            font-family: Arial;
+            border-bottom: 1px dashed #BBB;
+            padding: 12px;
+        }
+
+        .btn {
+            font-size: 16px;
+            background-color: #444;
+            border: 2px solid white;
+            color: white;
+            padding: 9px 14px;
+            margin: 0px 8px 0px 8px;
+
+            /* new */
+            border-radius: 30px;
+        }
+
+        .btn:hover {
+            color: orange;
+            border-color: darkorange;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+</body>
+
+    <!-- form -->
+    <label class="call-for-action">
+        To start the training hit <button class="btn">this Button</button> !
+    </label>
+    <!-- end/form-->
+
+</html>
